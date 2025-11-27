@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
   public static void main(String args[]) {
     Scanner avg_input = new Scanner(System.in);
-    
+    System.out.print("Write you average number: ");    
     int avg = avg_input.nextInt();
     String grade;
     
