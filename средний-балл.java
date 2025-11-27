@@ -4,7 +4,7 @@ public class Main {
   public static void main(String args[]) {
     Scanner avg_input = new Scanner(System.in);
     
-    int avg = Integer.parseInt(avg_input.nextLine());
+    int avg = avg_input.nextInt();
     String grade;
     
     if (avg >= 90) {
