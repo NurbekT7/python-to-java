@@ -1,6 +1,10 @@
-public class GradeCheck {
+import java.util.Scanner;
+
+public class Main {
   public static void main(String args[]) {
-    int avg = 85;
+    Scanner avg_input = new Scanner(System.in);
+    
+    int avg = Integer.parseInt(avg_input.nextLine());
     String grade;
     
     if (avg >= 90) {
